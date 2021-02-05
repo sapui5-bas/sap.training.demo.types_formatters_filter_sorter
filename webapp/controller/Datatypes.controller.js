@@ -1,7 +1,7 @@
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
-	"sap/ui/Device",
-	"sap/training/type/ZipCode"
+	"sap/ui/Device"
+	//, "sap/training/type/ZipCode"
 ], function(Controller, Device) {
 	"use strict";
 

@@ -1,13 +1,13 @@
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
-	"sap/ui/Device",
-	"sap/training/util/formatter"
-], function(Controller, Device, formatter) {
+	"sap/ui/Device"
+	//, "sap/training/util/formatter"
+], function(Controller, Device /*, formatter */) {
 	"use strict";
 
 	return Controller.extend("sap.training.controller.Formatters", {
 
-		formatter: formatter,
+		//formatter: formatter,
 
 		salutation: function(sGender) {
 			return sGender === "female" ? "Mrs." : "Mr.";
